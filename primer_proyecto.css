@@ -1,0 +1,47 @@
+html{
+    padding: 0px;
+    border: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+body header{
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    background-color: #FBE7C6;
+}
+body header h3{
+    margin: 0px;
+    text-align: left;
+    padding-top: 6px; /*separación con el borde superior*/
+}
+#menunav{
+    width: 100%;
+    height: 70px;
+    background-color: #FFAEBC;
+}
+nav ul{
+    margin: 0px; /* Separación vertical de un contenedor a otro*/
+}
+nav ul li{
+    display: inline-block; /*para que cada botón de menú se ubique uno a continuación del otro, de forma horizontal*/
+    padding-top: 25px;
+}
+.menu{
+    text-decoration: none; /*Para no tener subrayado*/
+    border: 1px solid;
+    border-radius: 5px;
+    border-bottom-width: 4px;
+    background-color: #A0E7E5;
+    padding: 10px;
+}
+.listaprincipal1{
+    color: rgb(245, 243, 139);
+    list-style:disc;
+}
+.ejerciciospy{
+    color:beige;
+    text-decoration: none;
+}
